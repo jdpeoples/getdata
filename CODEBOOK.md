@@ -21,9 +21,9 @@ AverageTimeBodyGyro[XYZ]
 
 AverageTimeBodyGyroJerk[XYZ]
 
-AverageTimeBodyAccMag
+AverageTimeBodyAccelerationMag
 
-AverageTimeGravityAccMag
+AverageTimeGravityAccelerationMag
 
 AverageTimeBodyAccJerkMag
 
