@@ -34,11 +34,11 @@ msdata <- data.frame(matrix(nrow = 10299, ncol = 0))
 enames <- character()
 for (k in 1:561)
 {
- if (stdlist[k] == TRUE || meanlist[k] == TRUE && freqlist[k] == FALSE)
- {
-   msdata <- cbind(msdata, datafull[,k])
-   enames <- c(enames,variablenames[k])
- }  
+  if (stdlist[k] == TRUE || meanlist[k] == TRUE && freqlist[k] == FALSE)
+  {
+    msdata <- cbind(msdata, datafull[,k])
+    enames <- c(enames,variablenames[k])
+  }  
 }
 
 #add column names to extracted data
@@ -50,7 +50,7 @@ enames <- gsub("tBody","TimeBody",enames)
 enames <- gsub("tGrav","TimeGrav", enames)
 enames <- gsub("fBody","FrequencyBody", enames)
 enames <- gsub("std","Std", enames)
-enames <- gsub("acc","Acceleration", enames)
+enames <- gsub("Acc","Acceleration", enames)
 colnames(msdata) <- enames
 
 #assign the column names for the activity ids of test data and training data
@@ -107,4 +107,5 @@ msaggdata <- msaggdata[order(msaggdata$Activity), ]
 #removes the column for row names
 row.names(msaggdata) <- seq(nrow(msaggdata))
 
-write.csv(msaggdata, file = "tidydata.csv")
+#writes tidy data set to text file
+write.table(msaggdata ,file="tidydata.txt",sep="\t")
