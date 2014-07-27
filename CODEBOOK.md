@@ -15,7 +15,7 @@ AverageTimeBodyAcceleration[XYZ]
 
 AverageTimeGravityAcceleration[XYZ]
 
-AverageTimeBodyAccJerk[XYZ]
+AverageTimeBodyAccelerationJerk[XYZ]
 
 AverageTimeBodyGyro[XYZ]
 
