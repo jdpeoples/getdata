@@ -1,4 +1,4 @@
-getdata
+READ ME
 =======
 
 This repo contains 4 files: Raw Data, a Tidy Data Set, A Code Book describing each variable and its values in the tidy data set, and an exact recipe used to take the raw data and translate it to the tiday data set.
