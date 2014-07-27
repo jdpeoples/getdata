@@ -7,13 +7,13 @@ SubjectID - 1:30
 Activity - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 (-1...1)
-AverageTimeBodyAcc[XYZ]
+AverageTimeBodyAcceleration[XYZ]
 
-AverageTimeBodyAcc[XYZ]
+AverageTimeBodyAcceleration[XYZ]
 
-AverageTimeBodyAcc[XYZ]
+AverageTimeBodyAcceleration[XYZ]
 
-AverageTimeGravityAcc[XYZ]
+AverageTimeGravityAcceleration[XYZ]
 
 AverageTimeBodyAccJerk[XYZ]
 
@@ -25,7 +25,7 @@ AverageTimeBodyAccelerationMag
 
 AverageTimeGravityAccelerationMag
 
-AverageTimeBodyAccJerkMag
+AverageTimeBodyAccelerationJerkMag
 
 AverageTimeBodyGyroMag
 
