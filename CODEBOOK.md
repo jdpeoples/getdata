@@ -8,7 +8,7 @@ VARIABLE LIST:
 
 SubjectID - 1:30 
 
-Activity - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+Activity - (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
 
 
 
