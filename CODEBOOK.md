@@ -6,7 +6,7 @@ Variable List, by column number:
 
 1   SubjectID - Possible Values-  1:30 
 
-2   Activity - Possible Values - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+2   Activity - Possible Values - (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
 
 For remaining variables, possible values :(-1...1)
 
