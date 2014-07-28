@@ -7,7 +7,8 @@ SubjectID - 1:30
 Activity - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 (-1...1)
-AverageTimeBodyAcceleration[XYZ]
+AverageTimeBodyAccelerationMean[XYZ]
+AverageTimeBodyAccelerationStd[XYZ]
 
 AverageTimeBodyAcceleration[XYZ]
 
