@@ -1,7 +1,7 @@
-CODE BOOK
+CODE BOOK for tidydata.txt
 =================
 
-Variable List:
+Variable List, by column number:
 
 
 1   SubjectID - Possible Values-  1:30 
