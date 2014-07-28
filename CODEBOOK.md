@@ -1,56 +1,143 @@
 CODE BOOK
 =================
 
-
-VARIABLE LIST:
-
+Variable List:
 
 
-SubjectID - 1:30 
+1   SubjectID - Possible Values-  1:30 
 
-Activity - (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+2   Activity - Possible Values - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
+For remaining variables, possible values :(-1...1)
 
+3  TimeBodyAccelerationMeanX
 
+4	TimeBodyAccelerationMeanY
 
-For the following variables the units can range from (-1...1), the variables with [XYZ] each have seperate measurments for X, Y, and Z, and all the variables each have measurements for Mean and Std.  So, for example AverageTimeBodyAcceleration[XYZ] has a variable AverageTimeBodyAccelerationMeanX, AverageTimeBodyAccelerationStdX, AverageTimeBodyAccelerationMeanY, etc.
+5	TimeBodyAccelerationMeanZ
 
-AverageTimeBodyAcceleration[XYZ]
+6	TimeBodyAccelerationStdX
 
-AverageTimeGravityAcceleration[XYZ]
+7	TimeBodyAccelerationStdY
 
-AverageTimeBodyAccelerationJerk[XYZ]
+8	TimeBodyAccelerationStdZ
 
-AverageTimeBodyGyro[XYZ]
+9	TimeGravityAccelerationMeanX
 
-AverageTimeBodyGyroJerk[XYZ]
+10	TimeGravityAccelerationMeanY
 
-AverageTimeBodyAccelerationMag
+11	TimeGravityAccelerationMeanZ
 
-AverageTimeGravityAccelerationMag
+12	TimeGravityAccelerationStdX
 
-AverageTimeBodyAccelerationJerkMag
+13	TimeGravityAccelerationStdY
 
-AverageTimeBodyGyroMag
+14	TimeGravityAccelerationStdZ
 
-AverageTimeBodyGyroJerkMag
+15	TimeBodyAccelerationJerkMeanX
 
-AverageFrequencyBodyAcceleration[XYZ]
+16	TimeBodyAccelerationJerkMeanY
 
-AverageFrequencyBodyAccelerationJerk[XYZ]
+17	TimeBodyAccelerationJerkMeanZ
 
-AverageFrequencyBodyGyro[XYZ]
+18	TimeBodyAccelerationJerkStdX
 
-AverageFrequencyBodyAccelerationMag
+19	TimeBodyAccelerationJerkStdY
 
-AverageFrequencyBodyAccelerationJerkMag
+20	TimeBodyAccelerationJerkStdZ
 
-AverageFrequencyBodyGyroMag
+21	TimeBodyGyroMeanX
 
-AverageFrequencyBodyGyroJerkMag
+22	TimeBodyGyroMeanY
 
+23	TimeBodyGyroMeanZ
 
+24	TimeBodyGyroStdX
 
+25	TimeBodyGyroStdY
 
+26	TimeBodyGyroStdZ
 
+27	TimeBodyGyroJerkMeanX
 
+28	TimeBodyGyroJerkMeanY
+
+29	TimeBodyGyroJerkMeanZ
+
+30	TimeBodyGyroJerkStdX
+
+31	TimeBodyGyroJerkStdY
+
+32	TimeBodyGyroJerkStdZ
+
+33	TimeBodyAccelerationMagMean
+
+34	TimeBodyAccelerationMagStd
+
+35	TimeGravityAccelerationMagMean
+
+36	TimeGravityAccelerationMagStd
+
+37	TimeBodyAccelerationJerkMagMean
+
+38	TimeBodyAccelerationJerkMagStd
+
+39	TimeBodyGyroMagMean
+
+40	TimeBodyGyroMagStd
+
+41	TimeBodyGyroJerkMagMean
+
+42	TimeBodyGyroJerkMagStd
+
+43	FrequencyBodyAccelerationMeanX
+
+44	FrequencyBodyAccelerationMeanY
+
+45	FrequencyBodyAccelerationMeanZ
+
+46	FrequencyBodyAccelerationStdX
+
+47	FrequencyBodyAccelerationStdY
+
+48	FrequencyBodyAccelerationStdZ
+
+49	FrequencyBodyAccelerationJerkMeanX
+
+50	FrequencyBodyAccelerationJerkMeanY
+
+51	FrequencyBodyAccelerationJerkMeanZ
+
+52	FrequencyBodyAccelerationJerkStdX
+
+53	FrequencyBodyAccelerationJerkStdY
+
+54	FrequencyBodyAccelerationJerkStdZ
+
+55	FrequencyBodyGyroMeanX
+
+56	FrequencyBodyGyroMeanY
+
+57	FrequencyBodyGyroMeanZ
+
+58	FrequencyBodyGyroStdX
+
+59	FrequencyBodyGyroStdY
+
+60	FrequencyBodyGyroStdZ
+
+61	FrequencyBodyAccelerationMagMean
+
+62	FrequencyBodyAccelerationMagStd
+
+63	FrequencyBodyAccelerationJerkMagMean
+
+64	FrequencyBodyAccelerationJerkMagStd
+
+65	FrequencyBodyGyroMagMean
+
+66	FrequencyBodyGyroMagStd
+
+67	FrequencyBodyGyroJerkMagMean
+
+68	FrequencyBodyGyroJerkMagStd
